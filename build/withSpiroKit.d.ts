@@ -3,5 +3,5 @@ declare type ConfigType = {
     plugins: Array<any>;
     nextConfig: any;
 };
-export default function withNativebase(config?: ConfigType, phase?: Array<any>): any;
+export default function withSpiroKit(config?: ConfigType, phase?: Array<any>): any;
 export {};

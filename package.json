@@ -1,5 +1,5 @@
 {
-  "name": "@native-base/next-adapter",
+  "name": "@spirokit/next-adapter",
   "version": "2.3.0",
   "main": "build/index.js",
   "license": "MIT",

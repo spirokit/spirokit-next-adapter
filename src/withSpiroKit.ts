@@ -4,19 +4,19 @@ type ConfigType = {
   nextConfig: any;
 };
 
-type withNativebaseParam = {
+type withSpiroKitParam = {
   config: ConfigType;
   // nextConfig?: any;
   phase?: Array<any>;
 };
 
-export default function withNativebase(
+export default function withSpiroKit(
   config: ConfigType = { dependencies: [], plugins: [], nextConfig: {} },
   phase: Array<any> = []
 ) {
   // const { webpack, ...config } = nextConfig;
   let dependencies = [
-    "native-base",
+    "@spirokit/native-base",
     "react-native",
     "react-native-svg",
     "react-native-web",
@@ -35,7 +35,7 @@ export default function withNativebase(
     "@react-native-aria/utils",
     "@react-stately/combobox",
     "@react-stately/radio",
-    "@native-base/next-adapter",
+    "@spirokit/next-adapter",
   ];
 
   if (config.dependencies !== undefined) {

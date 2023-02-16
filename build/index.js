@@ -7,7 +7,7 @@ var __createBinding = (this && this.__createBinding) || (Object.create ? (functi
     o[k2] = m[k];
 }));
 exports.__esModule = true;
-exports.withNativebase = void 0;
-var withNativebase_1 = require("./withNativebase");
-__createBinding(exports, withNativebase_1, "default", "withNativebase");
+exports.withSpiroKit = void 0;
+var withSpiroKit_1 = require("./withSpiroKit");
+__createBinding(exports, withSpiroKit_1, "default", "withSpiroKit");
 //# sourceMappingURL=index.js.map

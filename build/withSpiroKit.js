@@ -20,12 +20,12 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     return to.concat(ar || Array.prototype.slice.call(from));
 };
 exports.__esModule = true;
-function withNativebase(config, phase) {
+function withSpiroKit(config, phase) {
     if (config === void 0) { config = { dependencies: [], plugins: [], nextConfig: {} }; }
     if (phase === void 0) { phase = []; }
     // const { webpack, ...config } = nextConfig;
     var dependencies = [
-        "native-base",
+        "@spirokit/native-base",
         "react-native",
         "react-native-svg",
         "react-native-web",
@@ -44,7 +44,7 @@ function withNativebase(config, phase) {
         "@react-native-aria/utils",
         "@react-stately/combobox",
         "@react-stately/radio",
-        "@native-base/next-adapter",
+        "@spirokit/next-adapter",
     ];
     if (config.dependencies !== undefined) {
         dependencies = __spreadArray(__spreadArray([], dependencies, true), config.dependencies, true);
@@ -66,5 +66,5 @@ function withNativebase(config, phase) {
             return config;
         } }, (config.nextConfig && config.nextConfig)), __spreadArray([], phase, true));
 }
-exports["default"] = withNativebase;
-//# sourceMappingURL=withNativebase.js.map
+exports["default"] = withSpiroKit;
+//# sourceMappingURL=withSpiroKit.js.map
