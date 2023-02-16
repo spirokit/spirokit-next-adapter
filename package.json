@@ -1,6 +1,6 @@
 {
   "name": "@spirokit/next-adapter",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "main": "build/index.js",
   "license": "MIT",
   "scripts": {
@@ -13,14 +13,14 @@
   },
   "devDependencies": {
     "next": "^12.0.8",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-native-web": "0.17",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-native-web": "~0.18.7",
     "tsc": "^2.0.4",
     "typescript": "^4.5.4"
   },
   "dependencies": {
-    "native-base": "^3.4.19",
+    "@spirokit/native-base": "3.5.0-rc.9",
     "react-native-vector-icons-for-web": "^0.1.7"
   }
 }
